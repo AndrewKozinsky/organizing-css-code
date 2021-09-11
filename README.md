@@ -130,8 +130,8 @@
     }
     
     function getHeaderClass(config) {
-    const headerCls = appRootClass + '__header'
-    const classes = [headerCls]
+        const headerCls = appRootClass + '__header'
+        const classes = [headerCls]
     
         if (config.bg) {
             classes.push(`${headerCls}--${config.bg}`)
